@@ -15,10 +15,7 @@ def classify(num):
 
 def main():
     st.title("visit saudi")
-    backgroundColor = '#F0F0F0'
-    image = Image.open("logo.jpg")
-    st.image(image)
-
+    
     html_temp = """
     <div style="background-color:teal ;padding:10px">
     <h2 style="color:white;text-align:center;"> visit Classification</h2>
